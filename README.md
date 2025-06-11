@@ -67,8 +67,7 @@ sudo certbot --nginx -d james-server.crabdance.com -d www.james-server.crabdance
 Visit:  
   - [Subdomain](https://james-server.crabdance.com/) (redirects to HTTPS)
   - [Public IP](http://34.230.59.84) (redirects to HTTP)
-
     
-## Live Site
+Live Site:
 ![Landing Page Screenshot](screenshot-landing.png)
 ![Subdomain Screenshot](screenshot-subdomain.png)
