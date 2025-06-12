@@ -1,9 +1,9 @@
-# This step-by-step guide will help you host a website on an **AWS EC2** instance and configure **HTTP (port 80)** and **HTTPS (port 443)** for secure browsing.  
+# Step-by-Step guide to host a website on an **AWS EC2** instance and configure **HTTP (port 80)** and **HTTPS (port 443)** for secure browsing.  
 
 ---
 
 ## Prerequisites  
-To begin, I ensured to have the following all set up.  
+To begin, I made sure to have the following all set up.  
 ✅ An AWS account (Free Tier eligible).
 ✅ A domain name (got a free subdomain from freedns.afraid.org).
 
