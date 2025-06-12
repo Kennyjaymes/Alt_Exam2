@@ -3,24 +3,24 @@
 ---
 
 ## Prerequisites  
-To begin, I ensured to have the following all set up  
+To begin, I ensured to have the following all set up.  
 ✅ An AWS account (Free Tier eligible).
 ✅ A domain name (got a free subdomain from freedns.afraid.org).
 
 ---
 
 ## Step 1: Launch an EC2 Instance 
-- Name the instance
+- Name the instance.
 - Choose Amazon Machine Image (AMI).
 - Select Instance Type, t2.micro (Free Tier eligible).
 - Create a Key Pair (for SSH Access) and download the .pem file.
-- Configure Security Group (Firewall Rules), SSH (Port 22) – For remote access, HTTP (Port 80) – For website traffic, HTTPS (Port 443) – For secure traffic
-- Launch the Instance
+- Configure Security Group (Firewall Rules), SSH (Port 22) – For remote access, HTTP (Port 80) – For website traffic, HTTPS (Port 443) – For secure traffic.
+- Launch the Instance.
 
 ## Step 2: Connect to Your EC2 Instance
-- Find Your Instance’s Public IP
-- Connect via SSH
-- Install a Web Server (Nginx)
+- Find Your Instance’s Public IP.
+- Connect via SSH.
+- Install a Web Server (Nginx).
 ```bash
 sudo apt update && sudo apt upgrade -y
 sudo apt install nginx -y
@@ -62,17 +62,17 @@ sudo certbot --nginx -d james-server.crabdance.com -d www.james-server.crabdance
 ---
 
 ## Step 5: Push your website and related files to GitHub and clone your GitHub repo
-- cd /path/to/your/project
-- Initialize Git (git init)
-- Add the remote repository (git remote add origin https://github.com/Kennyjaymes/Alt_Exam2.git)
-- Add and commit files (git add ., git commit -m "Initial commit")
-- Push to the existing repository (git push origin main)
+- cd /path/to/your/project.
+- Initialize Git (git init).
+- Add the remote repository (git remote add origin https://github.com/Kennyjaymes/Alt_Exam2.git).
+- Add and commit files (git add ., git commit -m "Initial commit").
+- Push to the existing repository (git push origin main).
 
 ## Step 6: Verify Website  
 Visit:  
-  - [Subdomain](https://james-server.crabdance.com/) (redirects to HTTPS)
-  - [Public IP](http://34.230.59.84) (redirects to HTTP)
+  - [Subdomain](https://james-server.crabdance.com/) (redirects to HTTPS).
+  - [Public IP](http://34.230.59.84) (redirects to HTTP).
     
 Live Site:
-![Landing Page Screenshot](screenshot-landing.png)
-![Subdomain Screenshot](screenshot-subdomain.png)
+![Landing Page Screenshot](screenshot-landing.png).
+![Subdomain Screenshot](screenshot-subdomain.png).
