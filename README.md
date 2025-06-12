@@ -44,7 +44,7 @@ sudo systemctl enable nginx
 
 
 
-# Step 4: Secure Your Site with HTTPS (Free SSL via Let’s Encrypt)  
+## Step 4: Secure Your Site with HTTPS (Free SSL via Let’s Encrypt)  
 
 ### 1. Install Certbot  
 ```bash
@@ -61,14 +61,14 @@ sudo certbot --nginx -d james-server.crabdance.com -d www.james-server.crabdance
 
 ---
 
-# Step 5: Push your website and related files to GitHub and clone your GitHub repo
+## Step 5: Push your website and related files to GitHub and clone your GitHub repo
 - cd /path/to/your/project
 - Initialize Git (git init)
 - Add the remote repository (git remote add origin https://github.com/Kennyjaymes/Alt_Exam2.git)
 - Add and commit files (git add ., git commit -m "Initial commit")
 - Push to the existing repository (git push origin main)
 
-# Step 6: Verify Website  
+## Step 6: Verify Website  
 Visit:  
   - [Subdomain](https://james-server.crabdance.com/) (redirects to HTTPS)
   - [Public IP](http://34.230.59.84) (redirects to HTTP)
